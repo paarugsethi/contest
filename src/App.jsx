@@ -27,6 +27,17 @@ export default function App() {
           <CountdownCard value={minutes} label="MINUTES" />
           <CountdownCard value={seconds} label="SECONDS" />
         </div>
+
+        <div className="mt-8 md:mt-12 bg-white px-4">
+          <a
+            href="https://context.100xdevs.com/contests/cmm8aqr6v007i55bbecnxbo5m"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 bg-black text-white text-sm font-bold tracking-[0.2em] uppercase hover:bg-gray-800 transition-colors"
+          >
+            GO TO CONTEST!
+          </a>
+        </div>
       </main>
     </div>
   );
